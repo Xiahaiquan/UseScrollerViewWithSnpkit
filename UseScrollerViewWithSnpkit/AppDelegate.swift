@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  UseSnpkit
+//  UseScrollerViewWithSnpkit
 //
-//  Created by HaiQuan on 19/09/2017.
-//  Copyright © 2017 HaiQuan. All rights reserved.
+//  Created by HaiQuan on 2019/9/16.
+//  Copyright © 2019 HaiQuan. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }

@@ -14,20 +14,20 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         let scrollerView = HQScrollerView()
-        
+
         view.addSubview(scrollerView)
-        
+
         scrollerView.snp.makeConstraints { (make) in
-            
-            make.edges.equalTo(UIEdgeInsets(top: 5, left: 10, bottom: 15, right: 20))
+
+            make.edges.equalTo(UIEdgeInsets(top: 50, left: 0, bottom: 50, right: 0))
         }
 
-        
+
     }
 
-   
+
 
 }
 
